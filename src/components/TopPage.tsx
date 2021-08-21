@@ -10,7 +10,7 @@ const TopPage = () => {
     const [clickCount, setClickCount] = useState(0)
     const handleInputValue = (value: string) => {
         setInputValue(value);
-        console.log(value)
+        // console.log(value)
     }
 
     const handleSelectedValue = (value: string) => {
